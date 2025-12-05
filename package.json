@@ -1,9 +1,10 @@
 {
   "name": "intervals-mcp-server",
   "version": "1.0.0",
-  "type": "module",
   "description": "Model Context Protocol (MCP) server for connecting Claude and ChatGPT with the Intervals.icu API. Provides secure bridge for workouts, wellness and activities.",
   "main": "src/index.js",
+  "type": "module"
+
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
